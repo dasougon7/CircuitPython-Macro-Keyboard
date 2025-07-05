@@ -1,1 +1,16 @@
-Hola!
+[Perfil]
+name = Perfil 3: Navegador
+color = 0,0,255
+highlight = 255,255,0
+
+macro0 = "Nueva pestaña",keys,CONTROL,T
+macro1 = "Play",consumer,PLAY_PAUSE
+macro2 = "Volumen +",consumer,VOLUME_INCREMENT
+
+macro3 = "Buscar",keys,CONTROL,F
+macro4 = "URL Google",text,https://www.google.com
+macro5 = "Zoom -",keys,CONTROL,MINUS
+
+macro6 = "Copiar URL",keys,ALT,D,CONTROL,C
+macro7 = "Pegar y Enter",keys,CONTROL,V,ENTER
+macro8 = "Cerrar pestaña",keys,CONTROL,W

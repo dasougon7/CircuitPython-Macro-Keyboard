@@ -1,3 +1,8 @@
+"""Esta clase era una prueba para extraer clases del código principal.
+    No termina de funcionar hasta la fecha con las pruebas realizadas
+    pero dejo el archivo para trabajo futuro
+"""
+
 import time
 
 import board
