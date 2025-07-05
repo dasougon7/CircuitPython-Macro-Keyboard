@@ -1,0 +1,692 @@
+{
+  "uuid": "de759d2a57bdc03d0b61af33b6bbe068",
+  "path": "Offline/CircuitPython Macro Keyboard",
+  "name": "CircuitPython Macro Keyboard",
+  "content": "",
+  "created_at": "2024-05-25 20:52:59",
+  "updated_at": "2025-02-27 00:22:46",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "12a787552e0b6d4b3acfbe82f840f64b",
+      "title": "LOLIN S2",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "4264dd942b8447c195e43db24acccaf6": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "S2MINI",
+          1,
+          "S2MINI",
+          "U1",
+          {
+            "Manufacturer": "WEMOS",
+            "Manufacturer Part": "Wemos",
+            "Supplier": "WEMOS",
+            "Supplier Part": "WEMOS_S2_MINI",
+            "link": "https://www.wemos.cc/en/latest/s2/s2_mini.html?spm=a2g0o.detail.1000023.1.36da1596ZoDwKF",
+            "Contributor": "sergiy_gurin",
+            "spiceSymbolName": "S2MINI",
+            "puuid": "472595d551c0425da34e978e3ff019d1",
+            "uuid": "4264dd942b8447c195e43db24acccaf6"
+          }
+        ],
+        [
+          "WS2812B-B/W",
+          9,
+          "LED-SMD_4P-L5.0-W5.0-TL_WS2812B-B",
+          "LED1,LED2,LED3,LED4,LED5,LED6,LED7,LED8,LED9",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2761795",
+            "Manufacturer": "worldsemi",
+            "Manufacturer Part": "WS2812B-B/T",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "WS2812B-B/W",
+            "puuid": "b492c7f663c44f8ab2afd723c35ea2a4",
+            "uuid": "24e4ace9939f48caa3c966c07f5aa462"
+          }
+        ],
+        [
+          "0x0",
+          9,
+          "KEY-TH_CPG1511F01S0X",
+          "SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C404351",
+            "Manufacturer": "Kailh(凯华)",
+            "Manufacturer Part": "CPG151101S21",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CPG151101S21 COPY",
+            "puuid": "e4bcadffdc41449e99465ac64cc27cc2",
+            "uuid": "0c26ed3376c848f5899b7d6a19425c68"
+          }
+        ],
+        [
+          "PEC16-4020F-S0024",
+          1,
+          "SW-TH_PEC16-4020F-S0024",
+          "SW10",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C143803",
+            "Manufacturer": "BOURNS",
+            "Manufacturer Part": "PEC16-4020F-S0024",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C143803&%26type=1&ref=editor",
+            "spiceSymbolName": "PEC16-4020F-S0024",
+            "puuid": "8dda6575c4034845ae4e09f7126d94b8",
+            "uuid": "c77c31778ae54b55afcffd60172dfb32"
+          }
+        ],
+        [
+          "LCD1602",
+          1,
+          "LCD1602",
+          "LCD1",
+          {
+            "Manufacturer": "LONTECH(厦门龙特)",
+            "Manufacturer Part": "LCM1602K-NSW-BBW",
+            "Supplier Part": "C83275",
+            "Supplier": "LCSC",
+            "link": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "LCD1602",
+            "puuid": "4b9e423a569449a2b51949a532ae73f7",
+            "uuid": "6be69e8ce7a44e9ebfb04b7ff461d0da"
+          }
+        ],
+        [
+          "10 K oms",
+          1,
+          "RES-ADJ-TH_3386P",
+          "POTENCIOMETRO",
+          {
+            "Supplier Part": "",
+            "Supplier": "LCSC",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "Value(Ω)": "10K",
+            "spiceSymbolName": "R_3386P_EU",
+            "puuid": "ce6e0cc9b0684cd986edbf86d7075dfd",
+            "uuid": "fcaba4851eda4ca19d4326a668633a30"
+          }
+        ],
+        [
+          "220 oms",
+          1,
+          "R0603",
+          "R1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "PEC16-4020F-S0024",
+          1,
+          "SW-TH_PEC16-4020F-S0024",
+          "SW11",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C143803",
+            "Manufacturer": "BOURNS",
+            "Manufacturer Part": "PEC16-4020F-S0024",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C143803&%26type=1&ref=editor",
+            "spiceSymbolName": "PEC16-4020F-S0024",
+            "puuid": "8dda6575c4034845ae4e09f7126d94b8",
+            "uuid": "c77c31778ae54b55afcffd60172dfb32"
+          }
+        ]
+      ],
+      "updateTime": 1727978349,
+      "createTime": 1716663179,
+      "histories": [],
+      "created_at": "2024-05-25 20:52:59",
+      "updated_at": "2024-10-03 19:59:09"
+    },
+    {
+      "uuid": "73cf5a0c532453add31f11abe739b73a",
+      "title": "Button Matrix",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "24e4ace9939f48caa3c966c07f5aa462": 9,
+        "54f28137773a4932a0289b4ab830cdc6": 9
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "S2MINI",
+          1,
+          "S2MINI",
+          "U1",
+          {
+            "Manufacturer": "WEMOS",
+            "Manufacturer Part": "Wemos",
+            "Supplier": "WEMOS",
+            "Supplier Part": "WEMOS_S2_MINI",
+            "link": "https://www.wemos.cc/en/latest/s2/s2_mini.html?spm=a2g0o.detail.1000023.1.36da1596ZoDwKF",
+            "Contributor": "sergiy_gurin",
+            "spiceSymbolName": "S2MINI",
+            "puuid": "472595d551c0425da34e978e3ff019d1",
+            "uuid": "4264dd942b8447c195e43db24acccaf6"
+          }
+        ],
+        [
+          "WS2812B-B/W",
+          9,
+          "LED-SMD_4P-L5.0-W5.0-TL_WS2812B-B",
+          "LED1,LED2,LED3,LED4,LED5,LED6,LED7,LED8,LED9",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2761795",
+            "Manufacturer": "worldsemi",
+            "Manufacturer Part": "WS2812B-B/T",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "WS2812B-B/W",
+            "puuid": "b492c7f663c44f8ab2afd723c35ea2a4",
+            "uuid": "24e4ace9939f48caa3c966c07f5aa462"
+          }
+        ],
+        [
+          "CPG135001D01",
+          9,
+          "KEY-TH_CPG135001D0X",
+          "SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C400229",
+            "Manufacturer": "Kailh(凯华)",
+            "Manufacturer Part": "CPG135001D01",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CPG135001D01",
+            "puuid": "c450b16fcab7409aa92821abc6213b13",
+            "uuid": "54f28137773a4932a0289b4ab830cdc6"
+          }
+        ],
+        [
+          "220Ω",
+          1,
+          "R0603",
+          "0603WAF2200T5E",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "BOURNS",
+            "Manufacturer Part": "CR0603-FX-2200ELF",
+            "Supplier Part": "C203410",
+            "JLCPCB Part Class": "Basic Part",
+            "spiceSymbolName": "0603WAF2200T5E",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "25eef13595154cf911d80acfae99db0d"
+          }
+        ],
+        [
+          "LCD1602",
+          1,
+          "LCD1602",
+          "LCD1",
+          {
+            "Manufacturer": "HS(汉昇)",
+            "Manufacturer Part": "HS1602A-Y",
+            "Supplier Part": "C18198250",
+            "Supplier": "LCSC",
+            "link": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "LCD1602",
+            "puuid": "4b9e423a569449a2b51949a532ae73f7",
+            "uuid": "6be69e8ce7a44e9ebfb04b7ff461d0da"
+          }
+        ],
+        [
+          "10kΩ",
+          1,
+          "RES-ADJ-TH_3P-L5.0-W4.5-P2.35-BR",
+          "ST-4-2ETA103",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2922095",
+            "Manufacturer": "NIDEC(尼得科)",
+            "Manufacturer Part": "ST-4ETB103",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ST-4 2ETA103",
+            "puuid": "002d43009a0540be9a2455a1eb71f0ab",
+            "uuid": "ba4c6d29a29c4cf39d6eee6b2965920d"
+          }
+        ],
+        [
+          "PEC16-4020F-S0024",
+          1,
+          "SW-TH_PEC16-4020F-S0024",
+          "PEC16-4020F-S0024",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C143803",
+            "Manufacturer": "BOURNS",
+            "Manufacturer Part": "PEC16-4020F-S0024",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C143803&%26type=1&ref=editor",
+            "spiceSymbolName": "PEC16-4020F-S0024",
+            "puuid": "8dda6575c4034845ae4e09f7126d94b8",
+            "uuid": "c77c31778ae54b55afcffd60172dfb32"
+          }
+        ]
+      ],
+      "updateTime": 1728840919,
+      "createTime": 1716667334,
+      "histories": [],
+      "created_at": "2024-05-25 22:02:14",
+      "updated_at": "2024-10-13 19:35:19"
+    },
+    {
+      "uuid": "f0b5c36a5d705eb1a2f6021cb904ed80",
+      "title": "LCD1602",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "6be69e8ce7a44e9ebfb04b7ff461d0da": 1,
+        "85b610e1efd343cd8efc0abbb2b749a7": 1,
+        "752129e77e1df62ef69d66fe440d6488": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "S2MINI",
+          1,
+          "S2MINI",
+          "U1",
+          {
+            "Manufacturer": "WEMOS",
+            "Manufacturer Part": "Wemos",
+            "Supplier": "WEMOS",
+            "Supplier Part": "WEMOS_S2_MINI",
+            "link": "https://www.wemos.cc/en/latest/s2/s2_mini.html?spm=a2g0o.detail.1000023.1.36da1596ZoDwKF",
+            "Contributor": "sergiy_gurin",
+            "spiceSymbolName": "S2MINI",
+            "puuid": "472595d551c0425da34e978e3ff019d1",
+            "uuid": "4264dd942b8447c195e43db24acccaf6"
+          }
+        ],
+        [
+          "WS2812B-B/W",
+          9,
+          "LED-SMD_4P-L5.0-W5.0-TL_WS2812B-B",
+          "LED1,LED2,LED3,LED4,LED5,LED6,LED7,LED8,LED9",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2761795",
+            "Manufacturer": "worldsemi",
+            "Manufacturer Part": "WS2812B-B/T",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "WS2812B-B/W",
+            "puuid": "b492c7f663c44f8ab2afd723c35ea2a4",
+            "uuid": "24e4ace9939f48caa3c966c07f5aa462"
+          }
+        ],
+        [
+          "CPG135001D01",
+          9,
+          "KEY-TH_CPG135001D0X",
+          "SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C400229",
+            "Manufacturer": "Kailh(凯华)",
+            "Manufacturer Part": "CPG135001D01",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CPG135001D01",
+            "puuid": "c450b16fcab7409aa92821abc6213b13",
+            "uuid": "54f28137773a4932a0289b4ab830cdc6"
+          }
+        ],
+        [
+          "220mΩ",
+          1,
+          "R1206",
+          "1206W4F220LT5E",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "UNI-ROYAL(厚声)",
+            "Manufacturer Part": "1206W4F220LT5E",
+            "Supplier Part": "C25336",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "1206W4F220LT5E",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "752129e77e1df62ef69d66fe440d6488"
+          }
+        ],
+        [
+          "LCD1602",
+          1,
+          "LCD1602",
+          "LCD1",
+          {
+            "Manufacturer": "HS(汉昇)",
+            "Manufacturer Part": "HS1602A-Y",
+            "Supplier Part": "C18198250",
+            "Supplier": "LCSC",
+            "link": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "LCD1602",
+            "puuid": "4b9e423a569449a2b51949a532ae73f7",
+            "uuid": "6be69e8ce7a44e9ebfb04b7ff461d0da"
+          }
+        ],
+        [
+          "10kΩ",
+          1,
+          "RES-ADJ-TH_RK09K1130A5R",
+          "RK09K1130A5R",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C209779",
+            "Manufacturer": "ALPSALPINE(阿尔卑斯阿尔派)",
+            "Manufacturer Part": "RK09K1130A5R",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C209779&%26type=1&ref=editor",
+            "spiceSymbolName": "RK09K1130A5R",
+            "puuid": "35fa348543a6402c8d40783378ecaa8c",
+            "uuid": "85b610e1efd343cd8efc0abbb2b749a7"
+          }
+        ],
+        [
+          "PEC16-4020F-S0024",
+          1,
+          "SW-TH_PEC16-4020F-S0024",
+          "PEC16-4020F-S0024",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C143803",
+            "Manufacturer": "BOURNS",
+            "Manufacturer Part": "PEC16-4020F-S0024",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C143803&%26type=1&ref=editor",
+            "spiceSymbolName": "PEC16-4020F-S0024",
+            "puuid": "8dda6575c4034845ae4e09f7126d94b8",
+            "uuid": "c77c31778ae54b55afcffd60172dfb32"
+          }
+        ]
+      ],
+      "updateTime": 1728846507,
+      "createTime": 1717093125,
+      "histories": [],
+      "created_at": "2024-05-30 20:18:45",
+      "updated_at": "2024-10-13 21:08:27"
+    },
+    {
+      "uuid": "a678bd95de469f35ab710edefd7e5928",
+      "title": "Rotary Encoder",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "c77c31778ae54b55afcffd60172dfb32": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "S2MINI",
+          1,
+          "S2MINI",
+          "U1",
+          {
+            "Manufacturer": "WEMOS",
+            "Manufacturer Part": "Wemos",
+            "Supplier": "WEMOS",
+            "Supplier Part": "WEMOS_S2_MINI",
+            "link": "https://www.wemos.cc/en/latest/s2/s2_mini.html?spm=a2g0o.detail.1000023.1.36da1596ZoDwKF",
+            "Contributor": "sergiy_gurin",
+            "spiceSymbolName": "S2MINI",
+            "puuid": "472595d551c0425da34e978e3ff019d1",
+            "uuid": "4264dd942b8447c195e43db24acccaf6"
+          }
+        ],
+        [
+          "WS2812B-B/W",
+          9,
+          "LED-SMD_4P-L5.0-W5.0-TL_WS2812B-B",
+          "LED1,LED2,LED3,LED4,LED5,LED6,LED7,LED8,LED9",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2761795",
+            "Manufacturer": "worldsemi",
+            "Manufacturer Part": "WS2812B-B/T",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "WS2812B-B/W",
+            "puuid": "b492c7f663c44f8ab2afd723c35ea2a4",
+            "uuid": "24e4ace9939f48caa3c966c07f5aa462"
+          }
+        ],
+        [
+          "0x0",
+          9,
+          "KEY-TH_CPG1511F01S0X",
+          "SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C404351",
+            "Manufacturer": "Kailh(凯华)",
+            "Manufacturer Part": "CPG151101S21",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "CPG151101S21 COPY",
+            "puuid": "e4bcadffdc41449e99465ac64cc27cc2",
+            "uuid": "0c26ed3376c848f5899b7d6a19425c68"
+          }
+        ],
+        [
+          "220Ω",
+          1,
+          "R0603",
+          "0603WAF2200T5E",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "BOURNS",
+            "Manufacturer Part": "CR0603-FX-2200ELF",
+            "Supplier Part": "C203410",
+            "JLCPCB Part Class": "Basic Part",
+            "spiceSymbolName": "0603WAF2200T5E",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "25eef13595154cf911d80acfae99db0d"
+          }
+        ],
+        [
+          "LCD1602",
+          1,
+          "LCD1602",
+          "LCD1",
+          {
+            "Manufacturer": "HS(汉昇)",
+            "Manufacturer Part": "HS1602A-Y",
+            "Supplier Part": "C18198250",
+            "Supplier": "LCSC",
+            "link": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "LCD1602",
+            "puuid": "4b9e423a569449a2b51949a532ae73f7",
+            "uuid": "6be69e8ce7a44e9ebfb04b7ff461d0da"
+          }
+        ],
+        [
+          "10kΩ",
+          1,
+          "RES-ADJ-TH_3P-L5.0-W4.5-P2.35-BR",
+          "ST-4-2ETA103",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2922095",
+            "Manufacturer": "NIDEC(尼得科)",
+            "Manufacturer Part": "ST-4ETB103",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "ST-4 2ETA103",
+            "puuid": "002d43009a0540be9a2455a1eb71f0ab",
+            "uuid": "ba4c6d29a29c4cf39d6eee6b2965920d"
+          }
+        ],
+        [
+          "PEC16-4020F-S0024",
+          1,
+          "SW-TH_PEC16-4020F-S0024",
+          "PEC16-4020F-S0024",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C143803",
+            "Manufacturer": "BOURNS",
+            "Manufacturer Part": "PEC16-4020F-S0024",
+            "JLCPCB Part Class": "Extended Part",
+            "link": "https://lcsc.com/eda_search?q=C143803&%26type=1&ref=editor",
+            "spiceSymbolName": "PEC16-4020F-S0024",
+            "puuid": "8dda6575c4034845ae4e09f7126d94b8",
+            "uuid": "c77c31778ae54b55afcffd60172dfb32"
+          }
+        ]
+      ],
+      "updateTime": 1728762926,
+      "createTime": 1727978021,
+      "histories": [],
+      "created_at": "2024-10-03 19:53:41",
+      "updated_at": "2024-10-12 21:55:26"
+    },
+    {
+      "uuid": "9845da48f512de1a4d1098d2bebd1932",
+      "puuid": "de759d2a57bdc03d0b61af33b6bbe068",
+      "title": "PCB_CircuitPython Macro Keyboard",
+      "filename": "PCB_CircuitPython Macro Keyboard.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "8dda6575c4034845ae4e09f7126d94b8": 1,
+        "4b9e423a569449a2b51949a532ae73f7": 1,
+        "ce6e0cc9b0684cd986edbf86d7075dfd": 1,
+        "472595d551c0425da34e978e3ff019d1": 1,
+        "e4bcadffdc41449e99465ac64cc27cc2": 9,
+        "398691f1f785460098bbe5ee6590333c": 1,
+        "b492c7f663c44f8ab2afd723c35ea2a4": 9
+      },
+      "BOM": [],
+      "updateTime": 1728156593,
+      "createTime": 1717158196,
+      "histories": [],
+      "created_at": "2024-05-31 14:23:16",
+      "updated_at": "2024-10-05 21:29:53"
+    },
+    {
+      "uuid": "450a3a5e833c8bd4eaeaf20ce97803fb",
+      "puuid": "de759d2a57bdc03d0b61af33b6bbe068",
+      "title": "PCB_CPMK_Final",
+      "filename": "PCB_CPMK_Final.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "4b9e423a569449a2b51949a532ae73f7": 1,
+        "b492c7f663c44f8ab2afd723c35ea2a4": 9,
+        "472595d551c0425da34e978e3ff019d1": 1,
+        "8dda6575c4034845ae4e09f7126d94b8": 1,
+        "c450b16fcab7409aa92821abc6213b13": 9,
+        "35fa348543a6402c8d40783378ecaa8c": 1,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 1
+      },
+      "BOM": [],
+      "updateTime": 1728952023,
+      "createTime": 1728227215,
+      "histories": [],
+      "created_at": "2024-10-06 17:06:55",
+      "updated_at": "2024-10-15 02:27:03"
+    },
+    {
+      "uuid": "9f82613a8ade33a5eff50ceded28848f",
+      "puuid": "de759d2a57bdc03d0b61af33b6bbe068",
+      "title": "PCB_CPMK_Final_Correccion",
+      "filename": "PCB_CPMK_Final_Correccion.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "4b9e423a569449a2b51949a532ae73f7": 1,
+        "b492c7f663c44f8ab2afd723c35ea2a4": 9,
+        "472595d551c0425da34e978e3ff019d1": 1,
+        "8dda6575c4034845ae4e09f7126d94b8": 1,
+        "c450b16fcab7409aa92821abc6213b13": 9,
+        "35fa348543a6402c8d40783378ecaa8c": 1,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 1
+      },
+      "BOM": [],
+      "updateTime": 1740612166,
+      "createTime": 1740611655,
+      "histories": [],
+      "created_at": "2025-02-27 00:14:15",
+      "updated_at": "2025-02-27 00:22:46"
+    }
+  ],
+  "sort": [
+    "12a787552e0b6d4b3acfbe82f840f64b",
+    "73cf5a0c532453add31f11abe739b73a",
+    "f0b5c36a5d705eb1a2f6021cb904ed80",
+    "a678bd95de469f35ab710edefd7e5928"
+  ],
+  "title": "CircuitPython Macro Keyboard",
+  "foldername": "CircuitPython Macro Keyboard",
+  "schfilename": "CircuitPython Macro Keyboard.json",
+  "schfilemtime": 1728846507901
+}
