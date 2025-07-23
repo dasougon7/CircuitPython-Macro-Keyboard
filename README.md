@@ -5,7 +5,7 @@ Este sistema auxiliar a nuestros periféricos convencionales nos permite ejecuta
 
 ---
 ## 📷 Vista previa del dispositivo
-![Segundo prototipo CPMK en funcionamiento](IMG_20250620_130448-1.jpg)
+![Segundo prototipo CPMK en funcionamiento](IMG_20250620_130448.jpg)
 
 ---
 ## Características del dispositivo (actualmente)
